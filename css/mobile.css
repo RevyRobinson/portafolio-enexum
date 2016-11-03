@@ -1,0 +1,76 @@
+
+
+@media only screen and (max-width: 768px) {
+    /* For transition: */
+    [class*="col-"] {
+        width: 30%;
+    }
+    .overlay {
+	  position: absolute;
+	  display: block;
+	  background: rgba(63, 63, 63, 0.8);
+	  text-align: center;
+	  width: 100%;
+	  padding: 0px;
+	  margin: 0px;
+	  opacity: 0.4;
+	  visibility: visible;
+	  transition: all 0.5s ease;
+	}
+	
+	.post {
+		height: 250px;
+	}
+	.post:hover {
+	  position: relative;
+	  height: 250px;
+	  overflow: hidden;
+	  transform: scale(1);
+	  -ms-transform: scale(1);
+	  -moz-transform: scale(1);
+	  -webkit-transform: scale(1);
+	  -o-transform: scale(1);
+	  -webkit-transition: all 500ms ease-in-out;
+	  -moz-transition: all 500ms ease-in-out;
+	  -ms-transition: all 500ms ease-in-out;
+	  -o-transition: all 500ms ease-in-out;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .overlay {
+	  position: absolute;
+	  display: block;
+	  background: rgba(63, 63, 63, 0.8);
+	  text-align: center;
+	  width: 100%;
+	  padding: 0px;
+	  margin: 0px;
+	  opacity: 0.4;
+	  visibility: visible;
+	  transition: all 0.5s ease;
+	}
+	
+	.post {
+		height: 250px;
+	}
+	.post:hover {
+	  position: relative;
+	  height: 250px;
+	  overflow: hidden;
+	  transform: scale(1);
+	  -ms-transform: scale(1);
+	  -moz-transform: scale(1);
+	  -webkit-transform: scale(1);
+	  -o-transform: scale(1);
+	  -webkit-transition: all 500ms ease-in-out;
+	  -moz-transition: all 500ms ease-in-out;
+	  -ms-transition: all 500ms ease-in-out;
+	  -o-transition: all 500ms ease-in-out;
+	}
+}

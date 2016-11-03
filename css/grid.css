@@ -7,7 +7,7 @@
 /* Grid system */
 
 .container-fluid {
-	width:100%;
+	width:80%;
 	margin: 0px auto;
 }
 
@@ -95,4 +95,12 @@
 .col-12 {
 	/* (12 / 12) x 100 */
 	width: 100%;
+}
+
+/*Media Query for mobile*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
 }

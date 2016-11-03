@@ -1,0 +1,95 @@
+.lightbox {
+	background: rgba(63, 63, 63, 0.8);
+	height: 660px;
+}
+.img-description {
+	margin-top: 25px;
+	margin-bottom:25px;
+}
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display:block;
+}
+.caja-description {
+	margin-top: 25px;
+	padding: 10%;
+	background-color: #fff;
+	color: black;
+	height: 600px;
+	margin-bottom: 25px;
+}
+.caja-description p {
+	text-align: justify;
+}
+
+.boton-red {
+	/*clase para emular lo que hace la clase del sitio enexum*/
+	padding: 20px;
+	margin-top: 60px;
+	margin-left: 5%;
+	background-color: #d0261c;
+	color: white;
+	border: 3px solid #d0261c; 
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+}
+.boton-red:hover {
+	/*clase para emular lo que hace la clase del sitio enexum*/
+	padding: 20px;
+	margin-top: 60px;
+	margin-left: 5%;
+	background-color: #d0261c;
+	color: black;
+	text-transform: uppercase;
+	border: 3px solid darkred; 
+	transition: all 0.5s ease;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For transition: */
+    [class*="col-"] {
+        width: 50%;
+    }
+   	.caja-description {
+	margin-top: 10px;
+	padding: 5%;
+	background-color: #fff;
+	color: black;
+	height: 650px;
+	margin-bottom: 25px;
+	}
+}
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .caja-description {
+	margin-top: 0px;
+	padding: 5%;
+	background-color: #fff;
+	color: black;
+	height: 520px;
+	margin-bottom: 25px;
+	}
+	.img-responsive{
+	max-width: 50%;
+	height: auto;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.boton-red:hover {
+	/*clase para emular lo que hace la clase del sitio enexum*/
+	padding: 20px;
+	margin-top: 60px;
+	margin-left: 5%;
+	background-color: #d0261c;
+	color: white;
+	border: 3px solid #d0261c; 
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	}
+}
