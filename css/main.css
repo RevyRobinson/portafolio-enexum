@@ -9,7 +9,7 @@ a {
     font-size: 260%;
     font-weight: lighter;
     text-align: center !important;
-    background: url('../img/bg-title.jpg')bottom center no-repeat;
+    background: url('../images/bg-title.jpg')bottom center no-repeat;
     padding: 10px;
     margin: 0px;
     margin-top: 20px;
@@ -93,43 +93,43 @@ a {
 
 /*backgrounds*/
 .bg1 {
-  background: url("../img/altas-cumbres.jpg");
+  background: url("../images/altas-cumbres.jpg");
 }
 .bg2 {
-  background: url("../img/antislab.jpg");
+  background: url("../images/antislab.jpg");
 }
 .bg3 {
-  background: url("../img/cfccapital.jpg");
+  background: url("../images/cfccapital.jpg");
 }
 .bg4 {
-  background: url("../img/cory.jpg");
+  background: url("../images/cory.jpg");
 }
 .bg5 {
-  background: url("../img/flexline.jpg");
+  background: url("../images/flexline.jpg");
 }
 .bg6 {
-  background: url("../img/flukenetworks.jpg");
+  background: url("../images/flukenetworks.jpg");
 }
 .bg7 {
-  background: url("../img/house.jpg");
+  background: url("../images/house.jpg");
 }
 .bg8 {
-  background: url("../img/kupfer.jpg");
+  background: url("../images/kupfer.jpg");
 }
 .bg9 {
-  background: url("../img/monarch.jpg");
+  background: url("../images/monarch.jpg");
 }
 .bg10 {
-  background: url("../img/panoramachile.jpg");
+  background: url("../images/panoramachile.jpg");
 }
 .bg11{
-  background: url("../img/spazzio.jpg");
+  background: url("../images/spazzio.jpg");
 }
 .bg12{
-  background: url("../img/spyra.jpg");
+  background: url("../images/spyra.jpg");
 }
 .bg13{
-  background: url("../img/gemco.jpg");
+  background: url("../images/gemco.jpg");
 }
 /*overlay*/
 .post {
